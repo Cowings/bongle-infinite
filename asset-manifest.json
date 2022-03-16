@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bongle-infinite/static/css/main.4297a200.css",
-    "main.js": "/bongle-infinite/static/js/main.b1d206d5.js",
+    "main.css": "/bongle-infinite/static/css/main.baee7806.css",
+    "main.js": "/bongle-infinite/static/js/main.32e5eb5a.js",
     "static/js/787.b3f9d252.chunk.js": "/bongle-infinite/static/js/787.b3f9d252.chunk.js",
     "index.html": "/bongle-infinite/index.html",
-    "main.4297a200.css.map": "/bongle-infinite/static/css/main.4297a200.css.map",
-    "main.b1d206d5.js.map": "/bongle-infinite/static/js/main.b1d206d5.js.map",
+    "main.baee7806.css.map": "/bongle-infinite/static/css/main.baee7806.css.map",
+    "main.32e5eb5a.js.map": "/bongle-infinite/static/js/main.32e5eb5a.js.map",
     "787.b3f9d252.chunk.js.map": "/bongle-infinite/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4297a200.css",
-    "static/js/main.b1d206d5.js"
+    "static/css/main.baee7806.css",
+    "static/js/main.32e5eb5a.js"
   ]
 }
