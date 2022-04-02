@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-div{
-  color: white;
-  border: none;
-}
-
 a, a:focus{
   color: inherit;
   border: inherit;
