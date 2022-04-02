@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Grid } from './components/grid/Grid'
 import { Keyboard } from './components/keyboard/Keyboard'
 import { InfoModal } from './components/modals/InfoModal'
-import { PatchModal } from './components/modals/PatchModal'
+// import { PatchModal } from './components/modals/PatchModal'
 import { StatsModal } from './components/modals/StatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
 import {
@@ -51,7 +51,7 @@ function App() {
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
-  const [isPatchModalOpen, setIsPatchModalOpen] = useState(false)
+  // const [isPatchModalOpen, setIsPatchModalOpen] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false)
   const [currentRowClass, setCurrentRowClass] = useState('')
@@ -259,7 +259,7 @@ function App() {
   return (
     <div className="h-full flex flex-col">
       <Navbar
-        setIsPatchModalOpen={setIsPatchModalOpen}
+        // setIsPatchModalOpen={setIsPatchModalOpen}
         setIsInfoModalOpen={setIsInfoModalOpen}
         setIsStatsModalOpen={setIsStatsModalOpen}
         setIsSettingsModalOpen={setIsSettingsModalOpen}
@@ -282,10 +282,10 @@ function App() {
           isRevealing={isRevealing}
         />
         </div>
-        <PatchModal
+        {/* <PatchModal
           isOpen={isPatchModalOpen}
           handleClose={() => setIsPatchModalOpen(false)}
-        />
+        /> */}
         <InfoModal
           isOpen={isInfoModalOpen}
           handleClose={() => setIsInfoModalOpen(false)}

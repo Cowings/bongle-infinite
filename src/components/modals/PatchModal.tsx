@@ -9,6 +9,19 @@ type Props = {
 export const PatchModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Patch Notes" isOpen={isOpen} handleClose={handleClose}>
+      
+      <p className="text-md text-white">
+        <b>Patch 1.2</b>
+      </p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        Resized window and make the web fit better for devices including iPads and iPhones. Updated word list to exclude more unintended words. Changed icon to be more uniform with rest of website.
+      </p>
+
+      <br></br>
+
+      <p className="text-md text-white">
+        <b>Patch 1.1</b>
+      </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Patched unintended words that were unbalanced and abusive. These words have been removed and measures have been put in place to catch and punish these bug abusers. These punishments will include streak resets & stat wiping. Below are the words that will result in punishment.
       </p>

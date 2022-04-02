@@ -2,19 +2,19 @@ import {
   ChartBarIcon,
   CogIcon,
   InformationCircleIcon,
-  ClipboardListIcon,
+  // ClipboardListIcon,
 } from '@heroicons/react/outline'
 import { GAME_TITLE } from '../../constants/strings'
 
 type Props = {
-  setIsPatchModalOpen: (value: boolean) => void
+  // setIsPatchModalOpen: (value: boolean) => void
   setIsInfoModalOpen: (value: boolean) => void
   setIsStatsModalOpen: (value: boolean) => void
   setIsSettingsModalOpen: (value: boolean) => void
 }
 
 export const Navbar = ({
-  setIsPatchModalOpen,
+  // setIsPatchModalOpen,
   setIsInfoModalOpen,
   setIsStatsModalOpen,
   setIsSettingsModalOpen,
@@ -40,10 +40,10 @@ export const Navbar = ({
             className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
             onClick={() => setIsSettingsModalOpen(true)}
           />
-          <ClipboardListIcon
+          {/* <ClipboardListIcon
             className="h-6 w-6 cursor-pointer dark:stroke-white"
             onClick={() => setIsPatchModalOpen(true)}
-          />
+          /> */}
         </div>
       </div>
       <hr></hr>
