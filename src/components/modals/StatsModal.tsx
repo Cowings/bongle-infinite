@@ -90,16 +90,6 @@ export const StatsModal = ({
           >
             {SHARE_TEXT}
           </button>
-
-          <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-            Check out the original! {' '}
-            <a
-              href="https://bongle.bongbong.com/"
-              className="underline font-bold"
-            >
-              Click Here!
-            </a>{' '}
-          </p>
         </div>
       )}
     </BaseModal>

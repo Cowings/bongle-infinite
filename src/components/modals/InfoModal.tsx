@@ -56,16 +56,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter U is not in the word in any spot.
       </p>
-
-      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Bongle is created by tbong, go check out my website -{' '}
-        <a
-          href="https://bongbong.com/"
-          className="underline font-bold"
-        >
-          click here
-        </a>{' '}
-      </p>
     </BaseModal>
   )
 }
