@@ -211,18 +211,6 @@ function App() {
       }
     }
 
-    if (currentGuess === 'VOZHD' || currentGuess === 'WAQFS') {
-        if (guesses.includes('VOZHD') || guesses.includes('WAQFS')) {
-        	setCurrentRowClass('jiggle')
-            setStats(addStatsForCompletedGame(stats, 7))
-            setIsGameLost(true)
-            return showErrorAlert('Bozo you thought!', {
-                persist: true,
-                delayMs: REVEAL_TIME_MS * MAX_WORD_LENGTH + 1,
-            })
-        }
-    }
-
     setIsRevealing(true)
     // turn this back off after all
     // chars have been revealed
